@@ -1,5 +1,6 @@
 package net.salamanderyyyy.testArien;
 
+import net.salamanderyyyy.testArien.block.ModBlocks;
 import net.salamanderyyyy.testArien.item.ModItems;
 import org.slf4j.Logger;
 
@@ -59,6 +60,8 @@ public class TestMod {
         NeoForge.EVENT_BUS.register(this);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
+
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
@@ -75,7 +78,14 @@ public class TestMod {
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.ESSENCE);
+        }
+
+        if(event.getTabKey() == CreativeModeTabs.COMBAT) {
             event.accept(ModItems.ARIEN_SWORD);
+        }
+
+        if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+            event.accept(ModBlocks.ARIEN_BLOCK);
         }
     }
 
