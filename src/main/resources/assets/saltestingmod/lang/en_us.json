@@ -2,5 +2,7 @@
   "item.saltestingmod.essence": "Arien essence",
   "item.saltestingmod.arien_sword": "Arien sword",
 
-  "block.saltestingmod.arien_block": "Block of Arien"
+  "block.saltestingmod.arien_block": "Block of Arien",
+
+  "creativetab.saltestingmod.testmod_items": "Some stuff here"
 }
