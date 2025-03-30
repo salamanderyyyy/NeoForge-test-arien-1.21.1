@@ -4,5 +4,7 @@
 
   "block.saltestingmod.arien_block": "Block of Arien",
 
-  "creativetab.saltestingmod.testmod_items": "Some stuff here"
+  "creativetab.saltestingmod.testmod_items": "Some stuff here",
+  "tooltip.saltestingmod.essence.tooltip": "bouncy taste",
+  "tooltip.saltestingmod.arien_sword.tooltip": "is axe too"
 }
