@@ -22,6 +22,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.ESSENCE);
                         output.accept(ModItems.ARIEN_SWORD);
                         output.accept(ModBlocks.ARIEN_BLOCK);
+                        output.accept(ModItems.ARIEN_SPAWN_EGG);
 
                     }).build());
 

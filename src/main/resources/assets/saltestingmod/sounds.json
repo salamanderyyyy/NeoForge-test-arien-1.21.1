@@ -1,0 +1,14 @@
+{
+  "entity.arien.ambient": {
+    "sounds": [ "saltestingmod:arien_ambient" ]
+  },
+  "entity.arien.hurt": {
+    "sounds": [ "saltestingmod:arien_hurt" ]
+  },
+  "entity.arien.death": {
+    "sounds": [ "saltestingmod:arien_death" ]
+  },
+  "entity.arien.breed": {
+    "sounds": [ "saltestingmod:arien_breed" ]
+  }
+}

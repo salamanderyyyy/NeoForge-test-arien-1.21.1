@@ -7,5 +7,5 @@ import net.salamanderyyyy.testArien.util.ModTags;
 
 public class ModToolTiers {
     public static final Tier Arien = new SimpleTier(ModTags.Blocks.INCORRECT_FOR_ARIEN_TOOL,
-            1000, 4f, 3f, 20, () -> Ingredient.of(ModItems.ESSENCE));
+            1000, 4f, 3f, 30, () -> Ingredient.of(ModItems.ESSENCE));
 }

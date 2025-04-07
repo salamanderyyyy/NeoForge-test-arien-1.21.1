@@ -1,8 +1,11 @@
 package net.salamanderyyyy.testArien;
 
 import net.salamanderyyyy.testArien.block.ModBlocks;
+import net.salamanderyyyy.testArien.entity.ModEntities;
+import net.salamanderyyyy.testArien.event.ModEventBusEvents;
 import net.salamanderyyyy.testArien.item.ModCreativeModeTabs;
 import net.salamanderyyyy.testArien.item.ModItems;
+import net.salamanderyyyy.testArien.sound.ModSounds;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -64,6 +67,9 @@ public class TestMod {
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+        ModEntities.register(modEventBus);
+        modEventBus.register(ModEventBusEvents.class);
+        ModSounds.SOUND_EVENTS.register(modEventBus);
 
 
         // Register the item to a creative tab

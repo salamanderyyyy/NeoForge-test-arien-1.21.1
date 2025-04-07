@@ -1,10 +1,19 @@
 {
   "item.saltestingmod.essence": "Arien essence",
   "item.saltestingmod.arien_sword": "Arien sword",
+  "item.saltestingmod.arien_spawn_egg": "Arien spawn egg",
 
   "block.saltestingmod.arien_block": "Block of Arien",
 
   "creativetab.saltestingmod.testmod_items": "Some stuff here",
   "tooltip.saltestingmod.essence.tooltip": "bouncy taste",
-  "tooltip.saltestingmod.arien_sword.tooltip": "is axe too"
+  "tooltip.saltestingmod.arien_sword.tooltip": "is axe too",
+
+
+  "entity.saltestingmod.arien": "Arien",
+
+  "subtitles.entity.arien.ambient": "Not discord ping",
+  "subtitles.entity.arien.hurt": "Arien oww",
+  "subtitles.entity.arien.death": "Arien dinggg",
+  "subtitles.entity.arien.breed": "Arien ooooo"
 }
